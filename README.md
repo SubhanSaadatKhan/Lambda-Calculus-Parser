@@ -9,4 +9,6 @@ Implement non-trivial programs using Haskell and lambda calculus
 
 This increased knowledge of Haskell, functional programming, and their applications, as well as lambda calculus.
 
+The code documentation for this project is written in submission/32268513_SubhanSaadatKhan.pdf
+
 
