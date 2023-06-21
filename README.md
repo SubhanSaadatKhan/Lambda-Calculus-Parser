@@ -1,25 +1,12 @@
-# 2022Assignment2
+# Lambda Calculus Parser using Haskell
 
-## Using the code bundle
+Haskell was used to create an interpreter that parses a string into the data types offered by Builder.hs and Lambda.hs. Using this, we are able to generate Lambda Calculus expressions, which we can then normalize into a streamlined but equivalent expression (expression evaluation).
 
-`stack build`
+This undertaking aims to demonstrate lambda calculus as a method of computation and apply the acquired skills to a practical task (parsing).
+- Effectively  Use functional programming and parsing
+- Be familiar with and able to apply core functional programming principles (HOF, pure functions, immutable data structures, abstractions).
+Implement non-trivial programs using Haskell and lambda calculus
 
-Builds the packages.
+This increased knowledge of Haskell, functional programming, and their applications, as well as lambda calculus.
 
-`stack run`
 
-Builds an executable that runs the main function in app/Main.hs.
-
-`stack test`
-
-Builds the packages and executes doctests on all hs files in the submission folder.
-
-`stack clean --full`
-
-Removes unnecessary build files to reduce bundle size.
-
-## Troubleshooting
-
-`/usr/bin/ld.gold: error: cannot find -lgmp`
-
-Run `sudo apt-get install libgmp3-dev`
